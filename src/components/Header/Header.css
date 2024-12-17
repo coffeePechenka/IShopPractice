@@ -1,0 +1,155 @@
+.header{
+    width: 1274px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+    .header_logo{
+        width: 304px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        img{
+            
+            height: 50px;
+        }
+    }
+
+    .header_info{
+        width: 950px;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .header_info_user{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            grid-gap: 10px;
+
+
+            .header_info_avatar{
+                background-repeat: no-repeat;
+                background-position: center;
+                width: 36px;
+                height: 36px;
+                background-color: rgba(25, 25, 25, 1);
+                border-radius: 50%;
+                
+            }
+            .header_info_username{
+                font-size: 24px;
+                font-weight: 400;
+                color: rgba(184, 184, 184, 1);
+            }
+        }
+
+        .header_info_form{
+            height: 100%;
+            display: flex;
+            padding-left: 10px;
+            justify-content: space-between;
+            align-items: center;
+            width: 303px;
+            height: 35px;
+            background-color: rgba(25, 25, 25, 1);
+            border-radius: 6px;
+            overflow: hidden;
+
+            .header_info_icon{
+                cursor: pointer;
+                width: 10%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img{
+                    width: 60%;
+                    height: 60%;
+                }
+            }
+
+            .header_info_input{
+                width: 90%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                input{
+                    padding: 10px;
+                    width: 100%;                    height: 100%;
+                    border: none;
+                    outline: none;
+                    background-color: rgba(25, 25, 25, 1);
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: rgba(184, 184, 184, 1);
+
+                    &::placeholder{
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: rgba(184, 184, 184, 1);
+                    }
+                }
+            }
+
+            /* .box{
+
+            } */
+        }
+
+        .header_info_account{
+            width: 120px;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .favorites{
+                position: relative;
+                width: 50%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .favorites_fav{
+                    width: 80%;
+                    height: 80%;
+                    fill: none;
+                    stroke: rgba(184, 184, 184, 1);
+                    stroke-width: 2;
+
+                }
+
+                .favorites_cart{
+                    width: 80%;
+                    height: 80%;
+                    color: rgba(184, 184, 184, 1);
+
+                }
+                .count{
+                    position: absolute;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    background-color: rgba(139, 87, 198, 1);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    bottom: 1px;
+                    right: 10px;
+                    color: rgba(246, 246, 247, 1);
+                    font-weight: 700;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

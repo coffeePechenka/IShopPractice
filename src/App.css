@@ -1,0 +1,11 @@
+.App{
+
+
+    .container{
+        margin-top: 30px;
+        width: 1274px;
+        height: 425px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
